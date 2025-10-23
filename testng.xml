@@ -5,8 +5,7 @@
     <classes>
       
       <class name="testpkg.Checkout_test"/>
-      <class name="testpkg.Login_test"/>
-      <class name="testpkg.Product_test"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

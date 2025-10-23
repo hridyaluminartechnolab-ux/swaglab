@@ -14,10 +14,12 @@ public class Checkout_test extends Base_class {
 			Login_page log=new Login_page(driver);
 			Product_page pdt=new Product_page(driver);
 			Checkout_page checkout=new Checkout_page(driver);
+			test=extent.createTest("checkout test");
 			log.setvalue("standard_user", "secret_sauce");
 			log.login_button();
 			pdt.additems();
 			checkout.cartclick();
+			test.fail("fail");
 		}
 		
 	}

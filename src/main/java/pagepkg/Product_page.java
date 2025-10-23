@@ -20,8 +20,9 @@ public class Product_page {
 			
 		}
 		
-		public void additems() {
+		public void additems() throws InterruptedException {
 			for(WebElement items:cartbutton) {
+				Thread.sleep(3000);
 				items.click();
 			}
 		}

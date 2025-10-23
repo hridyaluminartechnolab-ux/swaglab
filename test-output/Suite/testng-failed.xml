@@ -3,12 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testpkg.Checkout_test">
+      <class name="testpkg.Login_test">
         <methods>
           <include name="browser_launch"/>
-          <include name="iconclick"/>
+          <include name="set"/>
         </methods>
-      </class> <!-- testpkg.Checkout_test -->
+      </class> <!-- testpkg.Login_test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

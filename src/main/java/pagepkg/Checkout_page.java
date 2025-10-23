@@ -23,8 +23,10 @@ public class Checkout_page {
 		
 		public void cartclick() {
 			JavascriptExecutor js = (JavascriptExecutor) driver;
-	        js.executeScript("window.scrollBy(0, 100);");
+	        js.executeScript("window.scrollBy(0,500);");
 			carticon.click();
+			
+			
 			checkout.click();
 		}
 		

@@ -7,7 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Login_page {
 	//object repository and action methods
+	
 	WebDriver driver;
+	
 	@FindBy(xpath="//input[@name='user-name']")
 	WebElement username;
 	

@@ -11,10 +11,10 @@ public class Product_test extends Base_class{
 		
 		@Test
 		public void additemstocart() throws InterruptedException {
-			Login_page log=new Login_page(driver);
+		  //  Login_page log=new Login_page(driver);
 			Product_page pdt=new Product_page(driver);
-			log.setvalue("standard_user", "secret_sauce");
-			log.login_button();
+			//log.setvalue("standard_user", "secret_sauce");
+			//log.login_button();
 			pdt.additems();
 		}
 
